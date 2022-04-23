@@ -41,7 +41,7 @@ public class BerandaActivity extends AppCompatActivity {
     private void replaceFragment(Fragment fragment){
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
-        ft.replace(R.id.frame_layout,fragment);
+        ft.replace(R.id.constraint_layout,fragment);
         ft.commit();
     }
 }
